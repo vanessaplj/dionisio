@@ -1,0 +1,112 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+/*-------------------------------------------------CTA BAR------------------------------------------*/
+.barrafixa{
+    background-color: #6B8E23;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 99%;
+}
+.CTA{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 15px;
+    color: #000000;
+    font-weight:500;
+    font-size: medium;
+}
+.logo{
+    width: 25px;
+}
+.btn{
+    width:150px;
+}
+/*-------------------------------------------------HEADER------------------------------------------*/
+.cover{
+    height: 85vh;
+    background-image: url(../img/Untitled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+.gradiente{
+    height: 85vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 50%, rgba(240,240,240,0) 84%, rgba(0,0,0,1) 100%);
+}
+.cover_text{
+    align-content: center;
+    width:50%;
+    height: 85vh;
+    text-align: center;
+    font-weight: 300;
+    color:#C9A227;
+}
+/*-------------------------------------------------PLANOS-----------------------------------------*/
+.planos_h1{
+    height: 10vh;
+    align-content: center;
+    text-align: center;
+    font-weight: 300;
+    background-color: #EAD7C0;
+}
+.planos{
+    height: 50vh;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #EAD7C0;
+}
+.cards{
+    width:22%;
+    align-content:top;
+    text-align:justify;
+    line-height: 1.5;
+}
+/*----------------------------------------------DETALHES-----------------------------------------*/
+.detalhes{
+    background-color: #8B5E3C;
+    height: 45vh;
+    align-content:top;
+    text-align:justify;
+    padding:25px;
+    display:flex;
+}
+.photo{
+    width:37%;
+    display:flex;
+}
+.text{
+    margin-left: 25px;
+    text-align:justify;
+    line-height: 1.75;
+    color:#EAD7C0;
+    text-indent: 0.5in;
+}
+/*------------------------------------------------FOOTER------------------------------------------*/
+.bottom{
+    background-color: #6B8E23;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrights{
+    margin-left: 20px;;
+}
+.social{
+    margin-right: 20px;
+    display:flex;
+    width:125px;
+    height:25px;
+    justify-content: space-between;
+}
