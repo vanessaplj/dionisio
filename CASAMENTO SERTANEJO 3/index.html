@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASÓRIO CAIPIRA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--CTA--------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg" style="background-color: #5F6F52;" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand px-2" data-bs-toggle="offcanvas" href="#offcanvasmenu" role="button"
+                aria-controls="offcanvasExample">
+                <img src="./img/logo.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2" data-bs-toggle="offcanvas" href="#offcanvasmenu" role="button"
+                        aria-controls="offcanvasExample">
+                        <strong>Casório Caipira &bull; Menu</strong>
+                    </li>
+                </ul>
+                <text class="nav-item px-3">
+                    Entre em contato e peça um orçamento hoje mesmo!
+                </text>
+                <button class="btn btn-outline-dark" type="submit" data-bs-toggle="modal"
+                    data-bs-target="#contato">Solicitar orçamento</button>
+            </div>
+        </div>
+    </nav>
+    <!--COVER------------------------------------------------------------------------------------->
+    <div class="cover">
+        <div class="gradiente">
+            <div class="title1">
+                <h1 class="text-white mx-5">Casório Caipira</h1>
+                <h3 class="text-white mx-5">O dia mais feliz da sua vida começa aqui</h3>
+            </div>
+        </div>
+    </div>
+    <!--SOBRE--------------------------------------------------------------------------------->
+    <section class="sec2">
+        <div class="page pt-4 pb-2">
+            <div class="pb-4">
+                <h1>Sobre nós</h1>
+            </div>
+            <div class="d-flex">
+                <div class="col-lg-6 px-1 py-2">
+                    <figure>
+                        <img src="./img/01.jpg" alt="" class="w-100 card-img-top">
+                    </figure>
+                </div>
+                <div class="col-lg-6 px-2">
+                    <p>Na Casório Caipira, transformamos o sonho do seu casamento sertanejo em realidade, com um
+                        processo completo e personalizado. Desde a primeira conversa, entendemos cada detalhe do casal,
+                        criando um evento autêntico e cheio de emoção.
+                    </p>
+                    <p>Nosso diferencial está na experiência imersiva: oferecemos locações deslumbrantes, decoração
+                        rústica encantadora, buffet com comida típica e atrações como música ao vivo e entrada triunfal
+                        a cavalo ou charrete. Cada casamento é planejado com carinho, combinando tradição e
+                        sofisticação.
+                    </p>
+                    <p>Cuidamos de tudo para que os noivos aproveitem cada momento, desde a organização até o grande
+                        dia. Com uma equipe especializada e parceiros renomados, garantimos um evento memorável,
+                        alinhado ao estilo e personalidade do casal.</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p>Se você sonha com um casamento sertanejo inesquecível, cheio de charme e autenticidade, a Casório
+                    Caipira está pronta para fazer parte da sua história!</p>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER------------------------------------------------------------------------------------>
+    <div class="footer d-flex pt-2">
+        <div class="col-lg-10 px-5">
+            <p>
+                © 2025 Casório Caipira. Todos os direitos reservados.
+                <br>
+                contato@casoriocaipira.com.br
+            </p>
+        </div>
+        <div class="icons col-lg-2 d-flex pe-5">
+            <a href="www.facebook.com/casoriocaipira">
+                <figure>
+                    <img src="./img/facebook.png" alt="facebook" class="logo mx-1">
+                </figure>
+            </a>
+            <a href="www.instagram.com/casoriocaipira">
+                <figure>
+                    <img src="./img/instagram.png" alt="instagram" class="logo mx-1">
+                </figure>
+            </a>
+            <a href="web.whatsapp.com">
+                <figure>
+                    <img src="./img/whatsapp.png" alt="whatsapp" class="logo mx-1">
+                </figure>
+            </a>
+            <a href="www.youtube.com/casoriocaipira">
+                <figure>
+                    <img src="./img/youtube.png" alt="youtube" class="logo mx-1">
+                </figure>
+            </a>
+        </div>
+    </div>
+    <!--MODAL--------------------------------------------------------------------------------------->
+    <div class="modal modal-lg fade" id="contato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Peça seu orçamento:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mb-3 col-12">
+                            <label>Nome:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 col-12">
+                            <label>E-mail para contato:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                    <!--------------------------------------------------------------------------->
+                    <div class="accordion mt-1 mb-3" id="accordionplanos">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Plano
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="radio" name="plano">
+                                            <label>Raíz (Básico)</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="radio" name="plano">
+                                            <label>Sertanejo (Intermediário)</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="radio" name="plano">
+                                            <label>Rancho Chic (Premium)</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="radio" name="plano">
+                                            <label>Laço Eterno (Luxo)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------------------------------------------------------->
+                    <div class="accordion mt-1 mb-3" id="accordionservicos">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Serviços
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Consultoria de Fornecedores</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Buffet e Bebidas</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Assessoria e Cerimonial</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Decoração Personalizada</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Música e Entretenimento</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Transporte e Hospedagem</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Espaço para o Evento</label>
+                                        </div>
+                                        <div class="mb-2 col-6">
+                                            <input type="checkbox">
+                                            <label>Fotografia e Filmagem</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 col-6">
+                                            <input type="checkbox">
+                                            <label>Convites e Papelaria Personalizada</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="checkbox">
+                                            <label>Lembrancinhas e Mimos para Convidados</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-2 col-12">
+                            <label>Observações:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-success">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--OFFCANVAS------------------------------------------------------------------------------------>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasLabel">Menu</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><a class="nav-link" href="./index.html">Início</a></p>
+            <p><a class="nav-link" href="./pg/servicos.html">Serviços</a></p>
+            <p><a class="nav-link" href="./pg/planos.html">Planos</a></p>
+            <p><a class="nav-link" href="./pg/galeria.html">Galeria</a></p>
+            <p><a class="nav-link" href="./pg/faq.html">FAQ</a></p>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

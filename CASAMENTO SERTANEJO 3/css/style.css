@@ -1,0 +1,266 @@
+/*--NAVBAR------------------------------------------------------------------------------------*/
+.logo{
+    width: 30px;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+/*--COVER------------------------------------------------------------------------------------*/
+.cover{ 
+    background-image: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 80vh;
+}
+.gradiente{
+    height: 80vh;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%);
+}
+.title1{
+    padding-top: 33vh;
+}
+/*--COVER 2------------------------------------------------------------------------------------*/
+.cover2{ 
+    background-image: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 50vh;
+}
+.gradiente2{
+    height: 50vh;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%);
+}
+.title2{
+    padding-top: 20vh;
+}
+/*--INICIO------------------------------------------------------------------------------------*/
+.sec1{
+    background-color: #FEFAE0;
+}
+.sec2{
+    background-color: #B99470;
+}
+.page{
+    width:80%;
+    justify-self: center;
+}
+/*--FOOTER------------------------------------------------------------------------------------*/
+.footer{
+    background-color: #A9B388;
+    align-items: center;
+}
+.icons{
+    justify-items: end;
+    align-items: end;
+}
+/*--SERVICOS------------------------------------------------------------------------------------*/
+.cards1{
+    justify-content: space-between;
+}
+.card1{
+    width:24%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.card-img-top{
+    border-radius: 5px;
+}
+.fakecard{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: #FEFAE0;
+    min-height: 70vh;
+}
+/*--PLANOS---------------------------------------------------------------------------------------*/
+.gradplanos{
+    background: #000000;
+background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 40%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.car1{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(../img/card01.jpg);
+    height: 100vh;
+}
+.car2{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(../img/card02.jpg);
+    height: 100vh;
+}
+.car3{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(../img/card03.jpg);
+    height: 100vh;
+}
+.car4{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(../img/card04.jpg);
+    height: 100vh;
+}
+/*--GALERIA-------------------------------------------------------------------------------------*/
+.pai{
+    background-color: lightskyblue;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* ------------------- repetir 4 vezes, 1 fracao */
+    grid-template-rows: repeat(6, 1fr);
+    /* ------------------- repetir 3 vezes, 1 fracao */
+}
+.filho{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#filho_01{
+    background-image: url(../img/wed06-03.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#filho_03{
+    background-image: url(../img/wed06-05.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#filho_04{
+    background-image: url(../img/wed06-02.jpg);
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+#filho_05{
+    background-image: url(../img/wed05-04.jpg);
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+#filho_06{
+    background-image: url(../img/wed05-01.jpg);
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+#filho_09{
+    background-image: url(../img/wed06-04.jpg);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#filho_10{
+    background-image: url(../img/wed06-01.jpg);
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#filho_11{
+    background-image: url(../img/wed05-03.jpg);
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+#filho_12{
+    background-image: url(../img/wed05-02.jpg);
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+#filho_14{
+    background-image: url(../img/wed03-01.jpg);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#filho_15{
+    background-image: url(../img/wed03-02.jpg);
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#filho_16{
+    background-image: url(../img/wed02-02.jpg);
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+#filho_17{
+    background-image: url(../img/wed07-05.jpg);
+    grid-column: 5/7;
+    grid-row: 3/5;
+}
+#filho_19{
+    background-image: url(../img/wed03-03.jpg);
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+#filho_20{
+    background-image: url(../img/wed01-02.jpg);
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+#filho_22{
+    background-image: url(../img/wed02-01.jpg);
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+#filho_25{
+    background-image: url(../img/wed01-01.jpg);
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+#filho_28{
+    background-image: url(../img/wed07-05.jpg);
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+#filho_29{
+    background-image: url(../img/wed07-01.jpg);
+    grid-column: 5/6;
+    grid-row: 5/6;
+}
+#filho_30{
+    background-image: url(../img/wed07-02.jpg);
+    grid-column: 6/7;
+    grid-row: 5/7;
+}
+#filho_31{
+    background-image: url(../img/wed04-01.jpg);
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+#filho_32{
+    background-image: url(../img/wed04-03.jpg);
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+#filho_33{
+    background-image: url(../img/wed04-02.jpg);
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+#filho_34{
+    background-image: url(../img/wed07-03.jpg);
+    grid-column: 4/5;
+    grid-row: 5/7;
+}
+#filho_35{
+    background-image: url(../img/wed07-04.jpg);
+    grid-column: 5/6;
+    grid-row: 6/7;
+}
+/*--FAQ---------------------------------------------------------------------------------------*/
+.faqbtn {
+    border: 1px solid #FEFAE0;
+    background-color: #FEFAE0;
+}
+.faqbg {
+    background-color: #B99470;
+}
+ 
